@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+  mainapi:
+    build:
+      context: "."
+      args:
+        - "FLASK_ENV=${FLASK_ENV:-production}"
+        - "NODE_ENV=${NODE_ENV:-production}"
+    env_file:
+      - ".env"
+    ports:
+      - "6002:6002"

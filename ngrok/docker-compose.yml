@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  ngrok:
+    image: shkoliar/ngrok:latest
+    ports:
+      - 4551:4551
+    links:
+      - invoicesapi_1
+    environment:
+      - DOMAIN=localhost
+      - PORT=32034

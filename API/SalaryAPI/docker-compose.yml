@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  salaryapi:
+    image: ${DOCKER_REGISTRY-}salaryapi
+    build:
+      context: .
+      dockerfile: SalaryAPI/Dockerfile

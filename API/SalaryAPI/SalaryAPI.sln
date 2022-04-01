@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryAPI", "SalaryAPI\SalaryAPI.csproj", "{B170BDE4-E663-465B-BE86-0A730E43751B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{30404307-AD67-4B1B-A9D3-75012232CAC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B170BDE4-E663-465B-BE86-0A730E43751B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B170BDE4-E663-465B-BE86-0A730E43751B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B170BDE4-E663-465B-BE86-0A730E43751B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B170BDE4-E663-465B-BE86-0A730E43751B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30404307-AD67-4B1B-A9D3-75012232CAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30404307-AD67-4B1B-A9D3-75012232CAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30404307-AD67-4B1B-A9D3-75012232CAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30404307-AD67-4B1B-A9D3-75012232CAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BED3F7F8-C0A7-4686-A8D4-5EF9D87F7DEA}
+	EndGlobalSection
+EndGlobal
